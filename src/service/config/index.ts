@@ -3,7 +3,7 @@ let BASE_URL = '';
 if (import.meta.env.MODE === 'development') {
   BASE_URL = 'http://152.136.185.210:5000';
 } else {
-  BASE_URL = '';
+  BASE_URL = 'http://152.136.185.210:5000';
 }
 
 console.log(import.meta.env.MODE);
